@@ -55,4 +55,28 @@ Seeking experts in:
 If you find a flaw in Section 4 of the math, please open an Issue or submit a PR. I am looking to break this model before it breaks itself.
 
 ---
-*Built by an independent researcher. No corporate backing. Pure science.*
+*Built by an independent researcher. No corporate backing. Pure science.*.    """
+TEIM Simulator v0.1
+Tests Entropy Barrier Hypothesis: Ve vs Noise Collapse.
+Author: Vladimir Dimitriev
+"""
+
+import numpy as np
+
+def calculate_phi_total(Ve, Vb):
+    """
+    Computes Total Consciousness Potential.
+    Phi_local depends on Energy Coherence (Ve).
+    Phi_relational depends on Spectral Uniqueness (Vb).
+    """
+    # Placeholder logic until full derivation is coded
+    phi_local = max(0, Ve - 0.5) # Threshold effect
+    phi_relational = Vb * 1.2
+    
+    return phi_local + phi_relational
+
+if __name__ == "__main__":
+    print("Running TEIM Simulation...")
+    print(f"Case Low Ve (Dead): {calculate_phi_total(0.1, 0.9)}")
+    print(f"Case High Ve (Alive): {calculate_phi_total(0.9, 0.9)}")
+    print("Prediction: High Ve sustains structure longer.")
